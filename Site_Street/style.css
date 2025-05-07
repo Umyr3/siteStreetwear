@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.banner{
+    height: 100vh;
+    background-image: url(/imagens/AdobeStock_641975636.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
