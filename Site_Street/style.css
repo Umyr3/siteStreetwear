@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
 *{
-    padding: 0;
-    margin: 0;
+    padding: 1;
+    margin: 1;
 }
 
 h1{
@@ -12,8 +12,11 @@ h1{
 
 .banner{
     height: 100vh;
-    background-image: url(/imagens/AdobeStock_641975636.jpeg);
+    background-image: url(/Site_Street/imagens/);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+* div{
+    background-image: url(/Site_Street/imagens/);
 }
