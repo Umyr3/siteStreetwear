@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
 *{
-    padding: 1;
-    margin: 1;
+    padding: 10;
+    margin: 10;
 }
 
 h1{
@@ -10,7 +10,7 @@ h1{
     font-style: normal;
   }
 
-.banner{
+*.banner{
     height: 100vh;
     background-image: url(/Site_Street/imagens/fundo.jpeg);
     background-position: center;
