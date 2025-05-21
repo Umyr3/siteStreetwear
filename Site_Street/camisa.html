@@ -11,6 +11,16 @@
 </head>
 
 <body style="background-color: #98E082;">
+    <div id="menu"></div>
+  <script>
+  fetch('menu.html')
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById('menu').innerHTML = data;
+  })
+  .catch(error => console.error('erro ao carregar o meu menu:', error));
+    
+  </script>
     <h1>Camisas</h1>
     <p>aqui tem uma camisa mais uma aqui aaaaaa foto camisa</p>
 </body>

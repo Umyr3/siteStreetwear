@@ -12,6 +12,16 @@
 
 <body>
     <h1>teste</h1>
+    <div id="menu"></div>
+  <script>
+  fetch('menu.html')
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById('menu').innerHTML = data;
+  })
+  .catch(error => console.error('erro ao carregar o meu menu:', error));
+    
+  </script>
     <form action="salvar.php" method="post" enctype="multipart/form-data">
         <label for="nome">Digite seu nome:</label>
         <input type="text" placeholder="Nome" id="nome" class="form-control">

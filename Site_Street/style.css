@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+
+*{
+    background-image: url(/Site_Street/imagens/vermelho.png);
+}
 *{
     padding: 10;
     margin: 10;
@@ -10,13 +14,12 @@ h1{
     font-style: normal;
   }
 
-*.banner{
-    height: 100vh;
-    background-image: url(imagens/vermelho.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 * div{
     background-image: url(/Site_Street/imagens/);
+}
+
+.carousel-item {
+    height: 300px;
+    max-width: 300px;
 }

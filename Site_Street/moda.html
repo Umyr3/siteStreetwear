@@ -6,5 +6,15 @@
     <title>Blog de moda</title>
 </head>
 <body style="background-color: #607EA6;">
+    <div id="menu"></div>
+  <script>
+  fetch('menu.html')
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById('menu').innerHTML = data;
+  })
+  .catch(error => console.error('erro ao carregar o meu menu:', error));
+    
+  </script>
     <p>texto imagem texto imagem blog bla bla bla</p>
 </body>

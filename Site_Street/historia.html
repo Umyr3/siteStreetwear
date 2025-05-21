@@ -9,6 +9,16 @@
 </head>
 
 <body style="background-color: #9E2F24;">
+    <div id="menu"></div>
+  <script>
+  fetch('menu.html')
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById('menu').innerHTML = data;
+  })
+  .catch(error => console.error('erro ao carregar o meu menu:', error));
+    
+  </script>
     <h1>Rastro Urbano: A Marca que Deixou sua Pegada na Cidade</h1>
     <p>
     No coração das ruas movimentadas, onde o asfalto encontra a arte e a moda se funde com a identidade das vielas,

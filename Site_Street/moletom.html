@@ -11,6 +11,16 @@
 </head>
 
 <body style="background-color: #98E082;">
+    <div id="menu"></div>
+  <script>
+  fetch('menu.html')
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById('menu').innerHTML = data;
+  })
+  .catch(error => console.error('erro ao carregar o meu menu:', error));
+    
+  </script>
     <h1>Moletons</h1>
     <p>modelo de moletom foto imagem modelo texto descrição modelo foto imagem</p>
 </body>
